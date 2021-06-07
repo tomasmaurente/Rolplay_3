@@ -1,12 +1,11 @@
 using System.Collections.Generic;
 namespace RoleplayGame
 {
-    public class Wizard: AbstractMagicalCharacter
+    public class Wizard : AbstractMagicalHeroe
     {
         public Wizard(string name)
         :base(name)
         {
-            this.AddItem(new Staff());
         }
     }
 }

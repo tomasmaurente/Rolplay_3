@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 namespace RoleplayGame
 {
-    public abstract class AbstractMagicalCharacter : AbstractCharacter
+    public abstract class AbstractMagicalEnemy : AbstractEnemy
     {
         private List<IMagicalItem> magicalItems = new List<IMagicalItem>();
         public override int AttackValue
@@ -49,7 +49,7 @@ namespace RoleplayGame
                 return value;
             }
         }
-        public AbstractMagicalCharacter(string name)
+        public AbstractMagicalEnemy(string name)
         :base(name)
         {
 
