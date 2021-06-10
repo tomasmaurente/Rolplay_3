@@ -2,10 +2,6 @@ namespace RoleplayGame
 {
     public class Joker : AbstractEnemy
     {
-        public Joker(string name)
-        :base(name)
-        {
-        }
         public override int Points
         {
             get
@@ -13,5 +9,10 @@ namespace RoleplayGame
                 return 69;
             }
         }
+        public Joker(string name)
+        :base(name)
+        {
+        }
+
     }
 }
